@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Filmoteca_AndreRM</string>
+    <string name="welcome_title">Welcome to Filmoteca</string>
+    <string name="welcome_subtitle">Your multimedia content platform</string>
+    <string name="btn_enter">Enter</string>
+</resources>
