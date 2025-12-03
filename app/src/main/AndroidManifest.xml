@@ -14,8 +14,12 @@
 
     <!-- Pantalla de login, solo interna -->
     <activity android:name=".LoginActivity" android:exported="false"/>
+    <activity android:name=".ListaPlataformasActivity" android:exported="false"/>
 
-    <!-- Pantalla principal de inicio, launcher -->
+
+
+
+        <!-- Pantalla principal de inicio, launcher -->
     <activity android:name=".MainActivity"
         android:exported="true">
         <intent-filter>

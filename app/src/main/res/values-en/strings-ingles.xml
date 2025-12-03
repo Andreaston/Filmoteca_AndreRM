@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Filmoteca_AndreRM</string>
+
+    <!--Pantalla 1-->
     <string name="welcome_title">Welcome to Filmoteca</string>
     <string name="welcome_subtitle">Your multimedia content platform</string>
     <string name="btn_enter">Enter</string>
+
+
+    <!--Pantalla 2-->
+    <string name="login_fondo">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Log in</string>
+    <string name="login_register_link">Don’t have an account? Register</string>
+    <string name="error_email">Incorrect email</string>
+    <string name="error_password">Incorrect password</string>
+
 </resources>

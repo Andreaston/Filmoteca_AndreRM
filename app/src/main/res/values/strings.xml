@@ -3,4 +3,17 @@
     <string name="welcome_title">Bienvenido a Filmoteca</string>
     <string name="welcome_subtitle">Tu plataforma de contenido multimedia</string>
     <string name="btn_enter">Entrar</string>
+
+    <!-- Login -->
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_register_link">¿No tienes cuenta? Regístrate</string>
+    <string name="error_email">Email incorrecto</string>
+    <string name="error_password">Contraseña incorrecta</string>
+
+    <!-- Registro -->
+    <string name="register_title">Registro</string>
+    <string name="register_button">Crear cuenta</string>
+
 </resources>
