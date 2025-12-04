@@ -16,4 +16,18 @@
     <string name="error_email">Incorrect email</string>
     <string name="error_password">Incorrect password</string>
 
+    <!--Registro-->
+    <string name="register_username">Username</string>
+    <string name="register_email">Email</string>
+    <string name="register_telefone">Number Telefone</string>
+    <string name="register_passworld">Passworld</string>
+    <string name="register_passworld_confirm">Repit Passworld</string>
+    <string name="register_title">New User</string>
+    <string name="register_button_confirm">Register</string>
+
+    <string name="register_error_empty">All fields are required</string>
+    <string name="register_error_passworld">Password confirmation does not match</string>
+    <string name="register_error_user_exist">This user account already exists</string>
+
+
 </resources>
