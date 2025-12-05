@@ -62,19 +62,19 @@ public class LoginActivity extends AppCompatActivity {
             if (email.equals(USER_EMAIL) && pass.equals(USER_PASSWORD)){
                 login = true;
             }
-
+            //Validar que exista el usuario
             if (registerEmail != null && registerPass != null){
                 if (email.equals(registerEmail) && pass.equals(registerPass)){
                     login = true;
                 }
             }
-
+            //Si no existe ERROR
             if (!login){
                 Toast.makeText(this,getString(R.string.error_login),Toast.LENGTH_SHORT).show();
                 return;
             }
             //Aplicar el estado
-            getSharedPreferences("login", MODE_PRIVATE).edit().putBoolean("legeado", true).apply();
+            getSharedPreferences("login", MODE_PRIVATE).edit().putBoolean("logeado", true).apply();
 
             // Ir a la pantalla de plataformas
             Intent i = new Intent(this, ListaPlataformasActivity.class);

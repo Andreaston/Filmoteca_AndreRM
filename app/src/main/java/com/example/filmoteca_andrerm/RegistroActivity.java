@@ -47,10 +47,9 @@ public class RegistroActivity extends AppCompatActivity {
                 return;
             }
             //Email existente
-
             String emailGuardados = preferences.getString("registered_email",null);
 
-            if (emailGuardados != null && emailText.equals(emailGuardados)){
+            if (emailGuardados != null && email.equals(emailGuardados)){
                 Toast.makeText(this, getString(R.string.register_error_user_exist),Toast.LENGTH_SHORT).show();
                 return;
             }
