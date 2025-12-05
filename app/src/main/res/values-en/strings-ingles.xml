@@ -15,6 +15,7 @@
     <string name="login_register_link">Don’t have an account? Register</string>
     <string name="error_email">Incorrect email</string>
     <string name="error_password">Incorrect password</string>
+    <string name="error_login">Email or Password Fail</string>
 
     <!--Registro-->
     <string name="register_username">Username</string>
@@ -28,6 +29,7 @@
     <string name="register_error_empty">All fields are required</string>
     <string name="register_error_passworld">Password confirmation does not match</string>
     <string name="register_error_user_exist">This user account already exists</string>
+    <string name="register_ok">Register Okay</string>
 
 
 </resources>

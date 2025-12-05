@@ -25,7 +25,7 @@ public class RegistroActivity extends AppCompatActivity {
         Button botonConfirmar = findViewById(R.id.btnRegistrar);
 
         //Estado
-        SharedPreferences preferences = null;
+        SharedPreferences preferences = getSharedPreferences("usuarios", MODE_PRIVATE);;
 
         //boton confirmar
         botonConfirmar.setOnClickListener(view -> {
@@ -50,9 +50,22 @@ public class RegistroActivity extends AppCompatActivity {
 
             String emailGuardados = preferences.getString("registered_email",null);
 
-            if (email.equals(DEFAULT_EMAIL) || (emailGuardados != null && emailText.equals(emailGuardados))){
+            if (emailGuardados != null && emailText.equals(emailGuardados)){
+                Toast.makeText(this, getString(R.string.register_error_user_exist),Toast.LENGTH_SHORT).show();
                 return;
             }
+
+            //Guardar usuario en el estado
+            preferences.edit()
+                    .putString("registered_email",email)
+                    .putString("registered_password", pass)
+                    .putString("registered_name", user)
+                    .putString("registered_phone",tlf)
+                    .apply();
+
+            Toast.makeText(this,getString(R.string.register_ok),Toast.LENGTH_SHORT).show();
+
+            finish();
 
         });
 

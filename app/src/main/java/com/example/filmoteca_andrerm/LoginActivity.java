@@ -20,16 +20,25 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(x);
         setContentView(R.layout.activity_login);
 
-        EditText email = findViewById(R.id.editEmail);
-        EditText password = findViewById(R.id.editPassword);
+        EditText emailText = findViewById(R.id.editEmail);
+        EditText passwordText = findViewById(R.id.editPassword);
         Button btnLogin = findViewById(R.id.btnLogin);
         TextView txtRegistro = findViewById(R.id.txtRegistro);
 
+        //Pillamos el estado
+        SharedPreferences preferences = getSharedPreferences("usuarios", MODE_PRIVATE);
+
         // Botón de Login
         btnLogin.setOnClickListener(v -> {
-            String emailText = email.getText().toString();
-            String passText = password.getText().toString();
+            String email = emailText.getText().toString();
+            String pass = passwordText.getText().toString();
 
+            // Recuperar los usuario
+            String registerEmail = preferences.getString("registered_email", null) ;
+            String registerPass = preferences.getString("registered_password", null);
+
+            boolean login = false;
+            /*
             // Validación
             if (!emailText.equals(USER_EMAIL)) {
                 Toast.makeText(this, getString(R.string.error_email), Toast.LENGTH_SHORT).show();
@@ -41,9 +50,31 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
+
             // Login correcto → guardar estado
             SharedPreferences prefs = getSharedPreferences("login", MODE_PRIVATE);
             prefs.edit().putBoolean("logeado", true).apply();
+
+             */
+
+            //Nuevas validaciones
+            //Validar usuario predeterminado
+            if (email.equals(USER_EMAIL) && pass.equals(USER_PASSWORD)){
+                login = true;
+            }
+
+            if (registerEmail != null && registerPass != null){
+                if (email.equals(registerEmail) && pass.equals(registerPass)){
+                    login = true;
+                }
+            }
+
+            if (!login){
+                Toast.makeText(this,getString(R.string.error_login),Toast.LENGTH_SHORT).show();
+                return;
+            }
+            //Aplicar el estado
+            getSharedPreferences("login", MODE_PRIVATE).edit().putBoolean("legeado", true).apply();
 
             // Ir a la pantalla de plataformas
             Intent i = new Intent(this, ListaPlataformasActivity.class);

@@ -11,6 +11,8 @@
     <string name="login_register_link">¿No tienes cuenta? Regístrate</string>
     <string name="error_email">Email incorrecto</string>
     <string name="error_password">Contraseña incorrecta</string>
+    <string name="error_login">Email o Contraseña erroneos</string>
+
 
     <!--Registro-->
     <string name="register_username">Nombre Usuario</string>
@@ -24,6 +26,7 @@
     <string name="register_error_empty">Rellena todos los campos</string>
     <string name="register_error_passworld">Las contraseñas deben ser iguales</string>
     <string name="register_error_user_exist">Ya existe un usuario con esta información</string>
+    <string name="register_ok">Registro Exitoso</string>
 
 
 </resources>
