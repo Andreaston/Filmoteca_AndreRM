@@ -31,5 +31,11 @@
     <string name="register_error_user_exist">This user account already exists</string>
     <string name="register_ok">Register Okay</string>
 
+    <!--Lista plataformas-->
+    <string name="menu_ayuda">Help</string>
+    <string name="menu_acerca_de">About us</string>
+    <string name="menu_title_bar">Streamify</string>
+    <string name="menu_title">Plataformas Streaming</string>
+
 
 </resources>
