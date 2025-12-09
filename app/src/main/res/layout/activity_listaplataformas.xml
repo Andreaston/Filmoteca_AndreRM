@@ -3,20 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#F4EEF8">
+    android:layout_height="match_parent">
 
     <!-- Barra superior con menú -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarPlataformas"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="wrap_content"
         android:background="@color/purple_200"
         app:title="@string/menu_title_bar"
-        app:titleTextColor="@android:color/black"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        app:titleTextColor="@android:color/black"/>
 
-    <!-- Título -->
     <TextView
         android:id="@+id/tituloPlataformas"
         android:layout_width="wrap_content"

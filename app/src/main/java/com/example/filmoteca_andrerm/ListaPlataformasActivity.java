@@ -1,8 +1,13 @@
 package com.example.filmoteca_andrerm;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -16,6 +21,11 @@ public class ListaPlataformasActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listaplataformas);
+        /*
+        Toolbar toolbar = findViewById(R.id.toolbarPlataformas);
+        setSupportActionBar(toolbar);
+
+         */
 
         RecyclerView recycler = findViewById(R.id.recyclerPlataformas);
         recycler.setLayoutManager(new LinearLayoutManager(this));
@@ -29,5 +39,35 @@ public class ListaPlataformasActivity extends AppCompatActivity {
 
         PlataformaAdapter adapter = new PlataformaAdapter(lista, this);
         recycler.setAdapter(adapter);
+
+
+
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_plataformas, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.menuAyuda) {
+            // Abre Activity de Ayuda
+            //Intent intent = new Intent(this, AyudaActivity.class);
+            //startActivity(intent);
+            return true;
+        } else if (id == R.id.menuAcercaDe) {
+            // Abre Activity de Acerca de
+            //Intent intent = new Intent(this, AcercaDeActivity.class);
+            //startActivity(intent);
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
 }
