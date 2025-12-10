@@ -34,5 +34,12 @@
     <string name="menu_title_bar">Streamify</string>
     <string name="menu_title">Plataformas Streaming</string>
 
+    <!--Películas-->
+    <string name="film_title">Título</string>
+    <string name="film_film">Películas</string>
+
+    <string name="movie_roma">Roma</string>
+
+
 
 </resources>

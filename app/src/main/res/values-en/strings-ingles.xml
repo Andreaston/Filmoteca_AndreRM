@@ -37,5 +37,11 @@
     <string name="menu_title_bar">Streamify</string>
     <string name="menu_title">Streaming sites</string>
 
+    <!--Películas-->
+    <string name="film_title">Title</string>
+    <string name="film_film">Films</string>
+
+    <string name="movie_roma">Roma</string>
+
 
 </resources>
