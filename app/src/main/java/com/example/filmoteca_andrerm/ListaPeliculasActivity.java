@@ -1,9 +1,11 @@
 package com.example.filmoteca_andrerm;
 
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -14,16 +16,24 @@ import model.Pelicula;
 
 public class ListaPeliculasActivity extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle x) {
+        super.onCreate(x);
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         setContentView(R.layout.activity_listapeliculas);
-
+        Toolbar toolbar = findViewById(R.id.toolbarPeliculas);
         RecyclerView recycler = findViewById(R.id.recyclerPeliculas);
-        recycler.setLayoutManager(new GridLayoutManager(this, 3));
-
         TextView titulo = findViewById(R.id.tituloPeliculas);
 
-        // Recibimos la plataforma desde el Intent
+        recycler.setLayoutManager(new GridLayoutManager(this, 3));
+
+        toolbar.setTitle(getString(R.string.film_film));
+        toolbar.setNavigationIcon(android.R.drawable.ic_menu_revert);
+        toolbar.setNavigationOnClickListener(v -> {onBackPressed();});
+
         String plataforma = getIntent().getStringExtra("plataforma");
         titulo.setText(plataforma);
 
@@ -40,32 +50,37 @@ public class ListaPeliculasActivity extends AppCompatActivity {
         switch (plataforma) {
 
             case "Netflix":
-                lista.add(new Pelicula(getString(R.string.movie_roma), R.drawable.poster_roma));
-                lista.add(new Pelicula("Sin novedad en el frente", R.drawable.poster_sinnovedad));
-                lista.add(new Pelicula("No mires arriba", R.drawable.poster_nomires));
-                lista.add(new Pelicula("El poder del perro", R.drawable.poster_poderperro));
-                lista.add(new Pelicula("La sociedad de la nieve", R.drawable.poster_sociedadnieve));
-                lista.add(new Pelicula("El irlandés", R.drawable.poster_irlandes));
-                lista.add(new Pelicula("Pinocho", R.drawable.poster_pinocho));
+                lista.add(new Pelicula(getString(R.string.movie_roma), R.drawable.poster_roma, getString(R.string.sinopsis_roma)));
+                lista.add(new Pelicula(getString(R.string.movie_novedadfrente), R.drawable.poster_sinnovedad, getString(R.string.sinopsis_novedadfrente)));
+                lista.add(new Pelicula(getString(R.string.movie_miresarriba), R.drawable.poster_nomires, getString(R.string.sinopsis_miresarriba)));
+                lista.add(new Pelicula(getString(R.string.movie_poderperro), R.drawable.poster_poderperro, getString(R.string.sinopsis_miresarriba)));
+                lista.add(new Pelicula(getString(R.string.movie_sociedadnieve), R.drawable.poster_sociedadnieve, getString(R.string.sinopsis_sociedadnieve)));
+                lista.add(new Pelicula(getString(R.string.movie_irlandes), R.drawable.poster_irlandes, getString(R.string.sinopsis_irlandes)));
+                lista.add(new Pelicula(getString(R.string.movie_pinocho), R.drawable.poster_pinocho, getString(R.string.sinopsis_pinocho)));
                 break;
-
             case "HBO":
-                lista.add(new Pelicula("Dune: Parte Dos", R.drawable.poster_dune));
+                lista.add(new Pelicula(getString(R.string.movie_dune), R.drawable.poster_dune, getString(R.string.sinopsis_dune)));
                 break;
-
             case "Disney+":
-                lista.add(new Pelicula("Frozen II", R.drawable.poster_frozen));
+                lista.add(new Pelicula(getString(R.string.movie_frozen), R.drawable.poster_frozen, getString(R.string.sinopsis_frozen)));
                 break;
-
             case "Amazon Prime":
-                lista.add(new Pelicula("Mañana es hoy", R.drawable.poster_manhana));
+                lista.add(new Pelicula(getString(R.string.movie_manhana), R.drawable.poster_manhana, getString(R.string.sinopsis_manhana)));
                 break;
-
             case "Apple TV":
-                lista.add(new Pelicula("Spirited", R.drawable.poster_spirited));
+                lista.add(new Pelicula(getString(R.string.movie_espiritu), R.drawable.poster_spirited, getString(R.string.sinopsis_espiritu)));
                 break;
         }
 
         return lista;
     }
+    /*
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed(); // vuelve atrás
+        return true;
+    }
+
+     */
+
 }
