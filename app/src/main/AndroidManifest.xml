@@ -18,6 +18,9 @@
     <activity android:name=".RegistroActivity" android:exported="false"/>
     <activity android:name=".ListaPeliculasActivity"></activity>
     <activity android:name=".DetallePeliculaActivity" android:exported="false"/>
+    <activity android:name=".AyudaActivity" android:exported="false"/>
+    <activity android:name=".FirmaActivity" android:exported="false"/>
+
 
 
 

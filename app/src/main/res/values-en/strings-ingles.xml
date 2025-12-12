@@ -53,6 +53,8 @@
     <string name="movie_frozen">Frozen II</string>
     <string name="movie_espiritu">Spirited</string>
 
+    <string name="sinopsis_titulo">Synopsis</string>
+
     <string name="sinopsis_roma">In early 1970s Mexico City, Cleo, a young domestic worker of Mixtec origin, works for a well-off middle-class family. The story unfolds in the Roma neighborhood, where the family’s seemingly peaceful life is shaken by marital tensions and social changes. Cleo not only faces her own personal challenges, including an unplanned pregnancy and a complicated relationship, but also becomes the emotional backbone of the family as it goes through a deep crisis. The film masterfully interweaves the personal with the political, depicting the 1971 student riots and the Corpus Christi Massacre as the backdrop to an intimate narrative about heartbreak, loneliness, and resilience. Every meticulously composed shot by Alfonso Cuarón reveals beauty in the everyday while exploring themes of class, gender, and memory in a transforming Mexico.</string>
 
     <string name="sinopsis_novedadfrente">An adaptation of Erich Maria Remarque’s classic novel, this film follows Paul Bäumer, an idealistic young German who, along with his school friends, enthusiastically enlists in the Imperial German Army during World War I. Motivated by patriotic speeches and the promise of glory, they soon discover the brutal reality of trench warfare on the Western Front. The film not only portrays the physical horrors of combat—the mud, the rats, the mustard gas, the bayonet charges—but also the psychological toll that turns these young men into disillusioned, traumatized adults. Through viscerally realistic scenes, the film explores how the war machine consumes the humanity of everyone involved, Germans and French alike, questioning nationalism, heroism, and the true cost of a conflict that left a lost generation behind.</string>
@@ -75,7 +77,68 @@
 
     <string name="sinopsis_espiritu">In this innovative musical take on Charles Dickens’ classic, Clint Briggs, the Ghost of Christmas Present, is tired of his annual job of redeeming souls. He decides to take on an impossible case: that of Eric Whittle, a cynical and ruthless media consultant whose mission is to sow division and controversy online. What Clint doesn’t anticipate is that Eric might be the first irredeemable subject in history. With help from the Ghosts of Christmas Past and Future, Clint embarks on a musical adventure filled with elaborate numbers, sharp humor, and heartfelt moments that explore not only the redemption of a man but also the importance of human connection, kindness, and the Christmas spirit in an increasingly digital and divided world.</string>
 
+    <!--Ayuda-->
+    <string name="help_screen_title">Help</string>
+    <string name="help_screen">WELCOME TO FILMOTECA
 
+Your personal app to explore the world of streaming. Filmoteca brings all the major platforms together in one place, allowing you to discover and organize your favorite entertainment in an intuitive and comprehensive way.
+
+HOW TO USE THE APP:
+
+On the main screen, you will see all available platforms: Netflix, HBO, Disney+, Amazon Prime, and Apple TV. Simply tap on the one you are interested in to access its full movie catalog.
+
+Within each platform, movies are arranged in an easy-to-navigate grid. Each movie displays its poster and title. By tapping any movie, you will access a full detail screen with extensive information: detailed synopsis, director, release year, duration, genre, and rating.
+
+To navigate, use the back arrow in the top left corner or your device’s swipe-back gesture. All screens allow smooth scrolling to read extended content.
+
+AVAILABLE INFORMATION:
+
+Each movie includes a complete synopsis describing the plot, characters, and context. You will also find accurate technical details: director, production year, exact duration, and film genre. Ratings help you identify critically acclaimed movies.
+
+The app is regularly updated with new releases and featured content from each platform. You can freely explore all platforms without switching between apps.
+
+PRACTICAL TIPS:
+
+- Explore all platforms: each one has exclusive content worth discovering.
+- Read full synopses by scrolling down on the detail screen.
+- Use director and genre information to find similar movies.
+- Check ratings as a reference for quality.
+- Navigate freely between screens using the back buttons.
+
+FUTURE FEATURES:
+
+We are working on new features coming soon: favorites system to save movies, advanced search by multiple criteria, personalized recommendations based on your interests, filters by genre and year, offline mode to access information without internet, notifications for new releases, calendar integration for release reminders, option to share movies with friends, reviews and comments section, and integrated trailers.
+
+We also plan technical improvements such as performance optimization, reduced data usage, support for more languages, enhanced accessibility for all users, and compatibility with more devices and screen sizes.
+
+FREQUENTLY ASKED QUESTIONS:
+
+Do I need a subscription to use Filmoteca? No, the app is completely free and only displays information about available content.
+
+Can I watch movies directly from the app? Filmoteca is an informational catalog. To watch content, you need a subscription to the respective platforms.
+
+How often is it updated? The catalog is regularly updated with new releases and featured movies.
+
+Can I suggest movies? Yes, we welcome suggestions to improve and expand the catalog.
+
+Does it use a lot of data? It only downloads optimized images and text, so consumption is minimal.
+
+PRIVACY AND SECURITY:
+
+Filmoteca respects your privacy. We do not collect personal data, do not require registration or login, do not share information with third parties, do not display invasive ads, and comply with all current data protection regulations.
+
+CONTACT AND SUPPORT:
+
+If you need help, first check this section. Make sure you have the latest app version installed and verify your internet connection. If you encounter persistent issues, restart the app. For additional technical assistance, contact our support team.
+
+OUR MISSION:
+
+We believe entertainment should be accessible, organized, and enjoyable for everyone. Our goal is to help you discover amazing content without information overload, providing a clean, intuitive, and comprehensive experience that complements your streaming journey.
+
+Thank you for choosing Filmoteca. Happy cinematic exploration!
+
+Last update: December 2024
+Version: 1.0.0</string>
 
 
 </resources>

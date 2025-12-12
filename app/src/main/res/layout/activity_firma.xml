@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFirma"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <TextView
+        android:id="@+id/firma_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="André Ríos Martínez"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/firma_curso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CD3IFC000200 Desenvolvemento de aplicacións multiplataforma (Distancia)"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/firma_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curso 2025/2026"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

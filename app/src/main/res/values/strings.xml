@@ -50,7 +50,9 @@
     <string name="movie_frozen">Frozen II</string>
     <string name="movie_espiritu">Spirited: ¡Qué vivo es el espíritu!</string>
 
-    <!-- En res/values/strings.xml -->
+    <string name="sinopsis_titulo">Sinopsis</string>
+
+
     <string name="sinopsis_roma">En la Ciudad de México de principios de los años 70, Cleo, una joven empleada doméstica de origen mixteco, trabaja para una familia de clase media acomodada. La historia se desarrolla en el barrio de Roma, donde la vida aparentemente tranquila de la familia se ve sacudida por tensiones maritales y cambios sociales. Cleo no solo enfrenta sus propios desafíos personales, incluyendo un embarazo no planificado y una relación complicada, sino que también se convierte en el pilar emocional de la familia mientras esta atraviesa una profunda crisis. La película entrelaza magistralmente lo personal con lo político, retratando los disturbios estudiantiles de 1971 y la masacre del Jueves de Corpus Christi como telón de fondo de una narrativa íntima sobre desamor, soledad y resiliencia. Cada plano cuidadosamente compuesto por Alfonso Cuarón revela la belleza en lo cotidiano, mientras explora temas de clase, género y memoria en un México en transformación.</string>
 
     <string name="sinopsis_novedadfrente">Adaptación de la clásica novela de Erich Maria Remarque, esta película sigue a Paul Bäumer, un idealista joven alemán que, junto con sus amigos del colegio, se alista entusiastamente en el ejército imperial alemán durante la Primera Guerra Mundial. Motivados por discursos patrióticos y la promesa de gloria, pronto descubren la brutal realidad de la guerra de trincheras en el frente occidental. La película no solo muestra los horrores físicos del combate - el barro, las ratas, el gas mostaza, los ataques con bayoneta - sino también el desgaste psicológico que transforma a estos jóvenes en hombres desilusionados y traumatizados. A través de escenas visceralmente realistas, la cinta explora cómo la maquinaria de guerra consume la humanidad de todos los involucrados, alemanes y franceses por igual, cuestionando el nacionalismo, el heroísmo y el verdadero costo del conflicto que dejó una generación perdida.</string>
@@ -73,5 +75,67 @@
 
     <string name="sinopsis_espiritu">En esta innovadora versión musical del clásico de Charles Dickens, Clint Briggs, el espíritu del presente de las Navidades, está cansado de su trabajo anual de redimir almas. Decide tomar un caso imposible: el de Eric Whittle, un cinico y despiadado consultor de medios cuya misión es sembrar división y controversia en línea. Lo que Clint no anticipa es que Eric podría ser el primer sujeto irredeemable de la historia. Con la ayuda de los espíritus de las Navidades pasadas y futuras, Clint se embarca en una aventura musical llena de números elaborados, humor inteligente y momentos conmovedores que exploran no solo la redención de un hombre, sino también la importancia de la conexión humana, la bondad y el espíritu navideño en un mundo cada vez más digitalizado y dividido.</string>
 
+    <!--Ayuda-->
+    <string name="help_screen_title">Ayuda</string>
+    <string name="help_screen">BIENVENIDO A FILMOTECA
+
+Tu aplicación personal para explorar el mundo del streaming. Filmoteca reúne todas las plataformas principales en un solo lugar, permitiéndote descubrir y organizar tu entretenimiento favorito de manera intuitiva y completa.
+
+CÓMO USAR LA APLICACIÓN:
+
+En la pantalla principal verás todas las plataformas disponibles: Netflix, HBO, Disney+, Amazon Prime y Apple TV. Simplemente toca sobre la que te interese para acceder a su catálogo completo de películas.
+
+Dentro de cada plataforma, las películas se organizan en una cuadrícula fácil de navegar. Cada película muestra su póster y título. Al tocar cualquier película, accederás a una pantalla de detalles completa con información extensa: sinopsis detallada, director, año de lanzamiento, duración, género y calificación.
+
+Para navegar, usa la flecha de retroceso en la esquina superior izquierda o el gesto de deslizar hacia atrás de tu dispositivo. Todas las pantallas permiten desplazamiento suave para leer contenido extenso.
+
+INFORMACIÓN DISPONIBLE:
+
+Cada película incluye una sinopsis completa que describe la trama, personajes y contexto. También encontrarás datos técnicos precisos: director, año de producción, duración exacta y género cinematográfico. Las calificaciones te ayudan a identificar películas aclamadas por la crítica.
+
+La aplicación se actualiza regularmente con nuevos lanzamientos y contenido destacado de cada plataforma. Puedes explorar libremente entre todas las plataformas sin necesidad de cambiar entre aplicaciones.
+
+CONSEJOS PRÁCTICOS:
+
+- Explora todas las plataformas: cada una tiene contenido exclusivo que merece la pena descubrir.
+- Lee las sinopsis completas desplazándote hacia abajo en la pantalla de detalles.
+- Usa la información del director y género para encontrar películas similares.
+- Revisa las calificaciones como referencia de calidad.
+- Navega libremente entre pantallas usando los botones de retroceso.
+
+FUNCIONALIDADES FUTURAS:
+
+Estamos trabajando en nuevas características que llegarán pronto: sistema de favoritos para guardar películas, búsqueda avanzada por múltiples criterios, recomendaciones personalizadas según tus intereses, filtros por género y año, modo offline para acceder a información sin conexión, notificaciones de nuevos lanzamientos, integración con calendario para recordatorios de estrenos, opción para compartir películas con amigos, sección de reseñas y comentarios, y tráilers integrados.
+
+También planeamos mejoras técnicas como optimización de rendimiento, reducción del consumo de datos, soporte para más idiomas, mejoras en accesibilidad para todos los usuarios, y compatibilidad con más dispositivos y tamaños de pantalla.
+
+PREGUNTAS FRECUENTES:
+
+¿Necesito suscripción para usar Filmoteca? No, la aplicación es completamente gratuita y solo muestra información sobre el contenido disponible.
+
+¿Puedo ver películas directamente desde la app? Filmoteca es un catálogo informativo. Para ver el contenido necesitas suscripción a las plataformas correspondientes.
+
+¿Con qué frecuencia se actualiza? El catálogo se actualiza regularmente con nuevos lanzamientos y películas destacadas.
+
+¿Puedo sugerir películas? Sí, estamos abiertos a sugerencias para mejorar y expandir el catálogo.
+
+¿Consume muchos datos? Solo descarga imágenes optimizadas y texto, por lo que el consumo es mínimo.
+
+PRIVACIDAD Y SEGURIDAD:
+
+Filmoteca respeta tu privacidad. No recopilamos datos personales, no requerimos registro ni inicio de sesión, no compartimos información con terceros, no mostramos publicidad invasiva, y cumplimos con todas las regulaciones de protección de datos vigentes.
+
+CONTACTO Y SOPORTE:
+
+Si necesitas ayuda, primero revisa esta sección. Asegúrate de tener la última versión de la aplicación instalada y verifica tu conexión a internet. Si encuentras problemas persistentes, reinicia la aplicación. Para asistencia técnica adicional, contacta con nuestro equipo de soporte.
+
+NUESTRA MISIÓN:
+
+Creemos que el entretenimiento debe ser accesible, organizado y disfrutable para todos. Nuestro objetivo es ayudarte a descubrir contenido increíble sin la sobrecarga de información, proporcionando una experiencia limpia, intuitiva y completa que complemente tu experiencia de streaming.
+
+Gracias por elegir Filmoteca. ¡Feliz exploración cinematográfica!
+
+Última actualización: Diciembre 2024
+Versión: 1.0.0 </string>
 
 </resources>

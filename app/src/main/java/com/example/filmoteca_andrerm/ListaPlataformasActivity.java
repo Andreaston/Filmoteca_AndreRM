@@ -55,14 +55,12 @@ public class ListaPlataformasActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.menuAyuda) {
-            // Abre Activity de Ayuda
-            //Intent intent = new Intent(this, AyudaActivity.class);
-            //startActivity(intent);
+            Intent intentAyuda = new Intent(ListaPlataformasActivity.this, AyudaActivity.class);
+            startActivity(intentAyuda);
             return true;
         } else if (id == R.id.menuAcercaDe) {
-            // Abre Activity de Acerca de
-            //Intent intent = new Intent(this, AcercaDeActivity.class);
-            //startActivity(intent);
+            Intent intentFirma = new Intent(ListaPlataformasActivity.this, FirmaActivity.class);
+            startActivity(intentFirma);
             return true;
         }
 
